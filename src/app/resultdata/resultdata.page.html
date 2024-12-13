@@ -1,0 +1,55 @@
+<ion-content class="background">
+  <div class="card">
+    <div class="anu">
+      <ion-icon name="chevron-back-outline"></ion-icon>
+      <p>Hasil Scan</p>
+      <a href="#">Detail</a>
+    </div>
+    <div class="chart-status-container">
+      <div class="donut-chart-container">
+        <div class="donut-chart">
+          <div class="score">14/17</div>
+        </div>
+      </div>
+
+      <div class="status">
+        <div class="status-item">
+          <div class="kiw">
+            <span class="dot purple"></span>
+            <span>Kanan</span>
+          </div>
+          <span class="label-red">Perlu diperhatikan</span>
+        </div>
+        <div class="status-item">
+          <div class="kiw">
+            <span class="dot green"></span>
+            <span>Kiri</span>
+          </div>
+          <span class="label orange">Cukup baik</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Bawah-->
+
+  <ion-title>Skor Anda</ion-title>
+  <ion-grid class="score-table">
+    <ion-row class="table-header">
+      <ion-col size="6">Parameter</ion-col>
+      <ion-col size="3" class="text-center">Kanan</ion-col>
+      <ion-col size="3" class="text-center">Kiri</ion-col>
+    </ion-row>
+
+    <ion-row class="table-row" *ngFor="let item of scores">
+      <ion-col size="6" class="parameter">
+        <ion-icon name="ellipse" class="icon-dot"></ion-icon>
+        {{ item.parameter }}
+      </ion-col>
+      <ion-col size="3" class="text-center">{{ item.kanan }}</ion-col>
+      <ion-col size="3" class="text-center">{{ item.kiri }}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Penutupan div.card -->
+</ion-content>

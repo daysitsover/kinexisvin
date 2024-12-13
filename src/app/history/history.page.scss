@@ -1,0 +1,213 @@
+ion-content {
+  --ion-background-color: #e9efec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 304px;
+  height: 181px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-family: poppins;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: right;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.date {
+  font-size: 14px;
+  color: #555;
+}
+
+.purple {
+  background-color: #a49ed7;
+}
+
+.green {
+  background-color: #9ed7c1;
+}
+
+ion-icon {
+  width: 15px;
+  height: 18px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+/* Kontainer utama untuk donut-chart dan status */
+.chart-status-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+/* Kontainer untuk chart donut */
+.donut-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  width: 200px;
+  margin-left: 0;
+}
+
+.donut-chart {
+  width: 120px;
+  height: 120px;
+  background: conic-gradient(
+    #9ed7c1 0deg,
+    #93e4c1 180deg,
+    #a49ed7 140deg,
+    #c1b8ea 300deg
+  );
+  border-radius: 50%;
+  position: relative;
+  margin-right: auto;
+  margin-left: 15px;
+}
+
+.donut-chart::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: poppins;
+}
+
+.date {
+  text-align: right;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.profile {
+  text-align: left;
+}
+
+img {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+a {
+  color: #16423c;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 12px;
+  margin-left: 0;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.status-item span {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+.red {
+  background-color: #f36d6d;
+  width: 109px;
+  height: 18px;
+  font-size: 10px;
+  color: #000;
+}
+
+.orange {
+  background-color: #ffb86c;
+  font-size: 11px;
+  width: 109px;
+  height: 18px;
+  color: #000;
+}
+
+.detail-link {
+  color: #6a9c89;
+  font-size: 11px;
+  text-decoration: underline;
+  margin-top: 25px;
+  margin-left: 0;
+}
+
+span {
+  font-size: 11px;
+}
+
+h4 {
+  font-size: 11px;
+  text-decoration: underline;
+  color: #333;
+}
+
+h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.kiw {
+  display: flex;
+  align-items: flex-start;
+}

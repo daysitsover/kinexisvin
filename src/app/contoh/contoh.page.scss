@@ -1,0 +1,62 @@
+ion-content {
+  --ion-background-color: #c4dad2;
+}
+.konter {
+  justify-content: center;
+  align-items: center;
+  height: 350px; /* Tinggi container */
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff; /* Warna latar belakang */
+  border-radius: 15px;
+  padding: 20px;
+}
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 200px; /* Tinggi container */
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 0 20;
+  background-color: #fff; /* Warna latar belakang */
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.bar {
+  width: 11%; /* Lebar setiap bar */
+  background: linear-gradient(to top, #1e7157, #a3d4c2); /* Gradasi warna */
+  border-radius: 10px 10px 0 0; /* Melengkung di atas */
+  transition: all 0.3s ease-in-out;
+  height: var(--height); /* Tinggi dinamis */
+  cursor: pointer; /* Pointer untuk hover */
+}
+
+/* Hover Effect */
+.bar:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.label {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+  color: #000; /* Warna label */
+  word-wrap: break-word;
+}
+
+h4 {
+  color: #16423c;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-flex;
+  padding-right: 15px;
+  text-align: center;
+}

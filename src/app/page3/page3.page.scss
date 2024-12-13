@@ -1,0 +1,67 @@
+/* General Style */
+ion-content {
+  --background: #f6fcf8;
+}
+
+.container {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Logo */
+.logo img {
+  width: 200px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  height: 100px;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #003c3b;
+  margin-bottom: 30px;
+}
+
+/* Input Fields */
+ion-item {
+  margin-bottom: 15px;
+}
+
+ion-input {
+  --background: #f9f9f9;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --border-radius: 5px;
+  --color: #333;
+}
+
+/* Submit Button */
+.btn {
+  --background: #598e84;
+  color: white;
+  --border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #486e69;
+}
+
+/* Sign In Redirect */
+.login-redirect {
+  margin-top: 20px;
+  color: #6a9c89;
+}
+
+.login-redirect a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #003c3b;
+}
+
+.login-redirect a:hover {
+  text-decoration: underline;
+}
+

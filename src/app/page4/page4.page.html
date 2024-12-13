@@ -1,0 +1,30 @@
+<ion-content class="ion-padding">
+  <div class="container">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="assets/Logo ver.2 1.svg" alt="Kinexis Logo" />
+    </div>
+
+    <!-- Registration Form -->
+    <h2 class="title">REGISTRASI</h2>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Username" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="email" placeholder="Email" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" placeholder="Password" required></ion-input>
+    </ion-item>
+
+    <ion-button class="btn" [routerLink]="['/page3']">Sign Up</ion-button>
+
+    <!-- Sign In Redirect -->
+    <div class="login-redirect">
+      <p>Sudah punya akun? <a href="page3.page.html">Sign In</a></p>
+    </div>
+  </div>
+</ion-content>
